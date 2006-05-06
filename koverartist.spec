@@ -12,6 +12,7 @@ BuildRequires:	artsc-devel
 BuildRequires:	kdelibs-devel
 BuildRequires:	libxml2-progs
 BuildRequires:	qt-devel
+BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -35,7 +36,7 @@ echo "# vi: encoding=utf-8" >> src/koverartist.desktop
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_desktopdir}/kde/
+install -d $RPM_BUILD_ROOT%{_desktopdir}/kde
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
@@ -43,6 +44,7 @@ install -d $RPM_BUILD_ROOT%{_desktopdir}/kde/
 mv $RPM_BUILD_ROOT%{_datadir}/applnk/Multimedia/koverartist.desktop $RPM_BUILD_ROOT%{_desktopdir}/kde/
 
 %find_lang %{name} --with-kde
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
