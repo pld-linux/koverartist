@@ -53,6 +53,8 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog FAQ NEWS README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_iconsdir}/hicolor/*x*/apps/*.png
+%dir %{_datadir}/apps/koverartist
+%dir %{_datadir}/apps/koverartist/cases
 %{_datadir}/apps/koverartist/cases/*.koac
 %{_datadir}/apps/koverartist/koverartistui.rc
 %{_datadir}/mimelnk/application/x-koverartist.desktop
