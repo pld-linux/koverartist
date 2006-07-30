@@ -1,12 +1,12 @@
 Summary:	KoverArtist - program for the fast creation of covers
 Summary(pl):	KoverArtist - program do szybkiego tworzenia ok³adek
 Name:		koverartist
-Version:	0.4.2
+Version:	0.4.4
 Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://members.inode.at/499177/software/koverartist/%{name}-%{version}.tar.bz2
-# Source0-md5:	01364fccebbd5e33769287fcbdf6bcf7
+# Source0-md5:	b645f898fd8bc0b1fe4827aef9c34251
 URL:		http://www.kde-apps.org/content/show.php?content=38195
 BuildRequires:	artsc-devel
 BuildRequires:	kdelibs-devel
