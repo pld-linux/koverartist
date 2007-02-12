@@ -1,5 +1,5 @@
 Summary:	KoverArtist - program for the fast creation of covers
-Summary(pl):	KoverArtist - program do szybkiego tworzenia ok≥adek
+Summary(pl.UTF-8):   KoverArtist - program do szybkiego tworzenia ok≈Çadek
 Name:		koverartist
 Version:	0.4.4
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 KoverArtist is a program for the fast creation of covers for cd/dvd
 cases and boxes.
 
-%description -l pl
-KoverArtist jest programem do szybkiego tworzenia ok≥adek p≥yt CD i
+%description -l pl.UTF-8
+KoverArtist jest programem do szybkiego tworzenia ok≈Çadek p≈Çyt CD i
 DVD.
 
 %prep
