@@ -1,5 +1,5 @@
 Summary:	KoverArtist - program for the fast creation of covers
-Summary(pl.UTF-8):   KoverArtist - program do szybkiego tworzenia okładek
+Summary(pl.UTF-8):	KoverArtist - program do szybkiego tworzenia okładek
 Name:		koverartist
 Version:	0.4.4
 Release:	1
